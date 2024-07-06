@@ -36,6 +36,9 @@ html{
 .image img {
     border-radius: 1rem;
 }
+.image img:hover {
+    cursor:pointer;
+}
 .text p:first-child {
     width: 8.5rem;
     font-weight: 800;
@@ -66,6 +69,9 @@ html{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+.name:hover{
+    cursor:pointer;
 }
 .name img {
     width: 3.5rem;
